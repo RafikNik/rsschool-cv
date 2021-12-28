@@ -1,6 +1,6 @@
 Knyazev Nikolay  
 ===
-![Foto](/img/foto1.jpg "my foto")
+![Foto](img/foto1.jpg "my foto")
 
 ##CONTACT INFO:  
 - **Phone:** +375 29 103 03 732  
@@ -13,4 +13,23 @@ ABOUT ME:
 ---
 Currently I’m focused on extending my Front-end Developer skills and my priority goal is to continue my Front-end Developer career in the company that will utilize and further enhance my knowledge of IT, and offer advancement opportunity
 I’m a hardworking, initiative, efficient, easily trained person with responsible attitude to work, structural thinking, creative approach in tasks solving. I work in multitask mode with comfort. I’m constantly engaged in self-education and welcome new experience as well.  I'm interested in everything related to web sites and web apps development.  
+
+##SKILLS:  
+
+- HTML  
+- CSS  
+- JavaSkript  
+- Git/GitHub  
+- VS Code, WebStorm  
+
+
+##COURSES:  
+- Front-end  from [ItStep](https://front-end.itstep.by/)(completed in 2019.)  
+- RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)  
+
+##LANGUAGES:  
+
+- English - A2  
+- Russian - Native  
+
 
