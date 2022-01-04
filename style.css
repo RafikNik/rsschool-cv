@@ -16,6 +16,7 @@ body{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    list-style: none;
   }
 * {
     box-sizing: border-box;
@@ -27,11 +28,8 @@ body{
   }
   main{
     border: 1px solid red;
-    width: 400px;
     margin: auto;
-    text-align: center;
-
-
+    
   }
   footer{
     border: 1px solid red;
@@ -39,13 +37,26 @@ body{
   html {
     scroll-behavior: smooth; 
   }
-  .nav-list {
-    list-style: none;
-  }
+
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
     color:#2ab0b0;
     font-size: 3.2vh;
+    transition: .3s;
+  }
+  /* .nav-link:hover { 
+    background: gold;
+  } */
+  .nav-link a {
+    color: #f7cf1d;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+  .section-profile{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
   }
