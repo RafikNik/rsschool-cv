@@ -11,7 +11,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-container">
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#contacts" class="nav-link">CONTACTS</a></li>
@@ -19,24 +19,100 @@
                     <li class="nav-item"><a href="#skills" class="nav-link">SKILLS</a></li>
                     <li class="nav-item"><a href="#courses" class="nav-link">COURSES</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">CODE</a></li>
-                    <li class="nav-item"><a href="#languages" class="nav-link">LANDUAGES</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">LANGUAGES</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="container">
+        <div class="container main-container">
             <section class="section section-profile" id="profile">
-                <img src="img/foto1.jpg" alt="my photo" class="section-profile-logo">
+                <img src="img/foto1.jpg" alt="my photo" class="section-profile-foto">
                 <div class="section-profile-title">
                   <h1 class="section-title main-title">KNYAZEV NIKOLAY</h1>
                   <h3 class="section-subtitle">Junior Front-End Developer</h3>
                 </div>        
               </section>
+              <section class="section" id="contacts">
+                <h2 class="section-title">CONTACTS</h2>
+                <ul class="section-list">
+                  <li class="section-item contacts-item">
+                    Phone:<a href="tel:+375291030372" title="tel"> +375 29 103 03 732</a> 
+                  </li>
+                  <li class="section-item contacts-item">
+                    Email: <a href="mailto:minskkraft@mail.ru" title="email"> minskkraft@mail.ru</a>
+                  </li>
+                  <li class="section-item contacts-item">
+                    Github: <a href="https://github.com/RafikNik" title="github"> Nikolay</a>
+                  </li>
+                  <li class="section-item contacts-item">
+                    Telegram: <a href="https://t.me/Smarnuts" title="Telegramm"> @Smarnuts</a>
+                  </li>
+                  <li class="section-item contacts-item">
+                    Linkedin: <a href="https://www.linkedin.com/in/nikolayknyazev83/" title="Linkedin"> Linkedin</a>
+                  </li>
+                </ul>
+              </section>
+              <section class="section" id="about">
+                <h2 class="section-title">ABOUT</h2>
+                <p>Currently I’m focused on extending my Front-end Developer skills and my priority goal is to continue my Front-end Developer career in the company that will utilize and further enhance my knowledge of IT, and offer advancement opportunity
+                    I’m a hardworking, initiative, efficient, easily trained person with responsible attitude to work, structural thinking, creative approach in tasks solving. I work in multitask mode with comfort. I’m constantly engaged in self-education and welcome new experience as well.  I'm interested in everything related to web sites and web apps development.
+                </p>
+              </section>
+              <section class="section" id="skills">
+                <h2 class="section-title">SKILLS</h2>
+                <ul class="section-list">
+                  <li class="section-item">
+                    Web-development:<span> HTML5, CSS3, JavaScript</span>
+                  </li>
+                  <li class="section-item">
+                    Code editor:<span> VS Code, WebStorm</span>
+                  </li>
+                  <li class="section-item">
+                    Version control:<span> GIT, Github</span>
+                  </li>
+                </ul>
+              </section>
+              <section class="section" id="code">
+                <h2 class="section-title">CODE</h2>
+        <pre class="pre"><code>function roughScale(x, base) {
+            const parsed = parseInt(x, base);
+            if (isNaN(parsed)) { return 0; }
+            return parsed * 100;
+          }
+         </code></pre>
+              </section>
+              <section class="section" id="courses">
+                <h2 class="section-title">COURSES</h2>
+                <ul class="section-list">
+                  <li class="section-item">
+                    Hexlet<span> - Introduction to git (in progress)</span>
+                  </li>
+                  <li class="section-item">
+                    ItStep<span> - Front-End Development (completed in 2019.)</span>
+                  </li>
+                  <li class="section-item">
+                    RS Schools<span> - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</span>
+                  </li>
+                </ul>
+              </section>
+              <section class="section section-langueges" id="langueges">
+                <h2 class="section-title">LANGUEGES</h2>
+                <p>-English - A2</p>
+                <p>Russian - Native</p>
+              </section>
         </div>
+
     </main>
     <footer class="footer">
-        <div class="container"></div>        
+        <div class="container footer-container">
+            <div>© 2022 
+                <a href="https://github.com/RafikNik" class="github">Nikolay</a>
+            </div>  
+            
+                <a href="https://rs.school/js/" class="rss"></a>
+             
+        </div>       
     </footer>
 
 

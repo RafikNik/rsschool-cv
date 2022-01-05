@@ -6,11 +6,16 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-
+.section-profile-foto {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  }
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    border: 1px solid rgb(0, 255, 55);
   }
   .nav-list {
     display: flex;
@@ -20,43 +25,115 @@ body{
   }
 * {
     box-sizing: border-box;
-
   }
-  header{
-    border: 1px solid red;
-    
+     header{
+      background-color: #8299854a;
   }
-  main{
-    border: 1px solid red;
-    margin: auto;
-    
+     main{
+    margin: auto;    
   }
-  footer{
-    border: 1px solid red;
-  }
-  html {
+    footer{
+    background-color: #8299854a;
+  } 
+    html {
     scroll-behavior: smooth; 
   }
-
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
     color:#2ab0b0;
-    font-size: 3.2vh;
-    transition: .3s;
+    transition: .5s;
   }
-  /* .nav-link:hover { 
-    background: gold;
-  } */
-  .nav-link a {
-    color: #f7cf1d;
-    text-decoration: none;  
+  .nav-link:hover { 
+    color: #524304;
+    font-weight: bold;
+    text-decoration: none; 
+    transition: color 0.5s;
+  }  
+  .contacts-item a:hover { 
+    color: #524304;
+    font-weight: bold;
+    text-decoration: none; 
     transition: color 0.5s;
   }
-  .section-profile{
+  .main-container {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
+    flex-wrap: wrap;
+  }  
+  .section {
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #672f2f;
   }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .section-subtitle {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #5c5c5c;
+    line-height: 50px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+  .section-profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 50px 30px 35px;
+    border-bottom: 15px solid #7e7a7559;
+  }
+  .rss {
+    width: 120px;
+    height: 45px;
+    background-image: url("https://app.rs.school/static/images/logo-rsschool3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+    color: #2ab0b0;
+    font-size: 20px;
+  }
+    .github {
+      color: #2ab0b0;
+      text-decoration: none;
+      line-height: 45px;
+      margin: 30px;
+    }
+    .section-item {
+      position: relative;
+      margin: 0;
+      margin-bottom: 10px;
+      padding: 0;
+      padding-left: 20px;
+    }
+    .section-title {
+      margin-bottom: 20px;
+      font-size: 30px;
+      font-weight: 300;
+      text-transform: uppercase;
+      letter-spacing: 7px;
+      color: #2ab0b0;
+    }
+    .section-list {
+      margin: 0;
+      padding: 0;  
+      list-style: none;
+    }
+    .section-item span {
+      color: #2ab0b0;
+    }
+    .section-item a {
+      text-decoration: none;
+      color: #2ab0b0;
+      transition: color 0.5s;
+    }
